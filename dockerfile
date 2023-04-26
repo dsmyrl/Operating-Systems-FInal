@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Compile the application
-RUN javac GameMenu.java
+RUN javac Main.java
 
 # Set the default command to run when the container starts
 CMD ["java", "Main"]
