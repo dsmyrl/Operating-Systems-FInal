@@ -41,13 +41,13 @@ public class GameMenu extends JFrame implements ActionListener {
             Pong pong = new Pong();
             pong.start();
         } else if (e.getSource() == guessButton) {
-            guessing guess = new guessing(new Scanner(System.in));
+            GuessTheNumber guess = new GuessTheNumber(new Scanner(System.in));
             guess.start();
         } else if (e.getSource() == warButton) {
-            WAR war = new WAR(new Scanner(System.in));
+            War war = new War(new Scanner(System.in));
             war.start();
         } else if (e.getSource() == demoButton) {
-            final_project demo = new final_project(null);
+            DungeonGame demo = new DungeonGame(null);
             try {
                 demo.start();
             } catch (IOException e1) {

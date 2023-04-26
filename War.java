@@ -2,10 +2,10 @@ import java.io.*;
 import java.util.*;
 
 //make a game of war with 1 player and 1 computer
-public class WAR {
+public class War {
     private Scanner input;
 
-    public WAR(Scanner input) {
+    public War(Scanner input) {
         this.input = input;
     }
 
@@ -204,7 +204,7 @@ public class WAR {
 
         public static void main(String[] args) throws Exception 
         {
-            WAR game = new WAR(new Scanner(System.in));
+            War game = new War(new Scanner(System.in));
         game.start();
         }
     }

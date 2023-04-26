@@ -1,10 +1,10 @@
 import java.io.*;
 import java.util.*;
 
-public class guessing {
+public class GuessTheNumber {
     private Scanner input;
 
-    public guessing(Scanner input) {
+    public GuessTheNumber(Scanner input) {
         this.input = input;
     }
 
@@ -51,7 +51,7 @@ public class guessing {
     }
 
     public static void main(String[] args) {
-        guessing game = new guessing(new Scanner(System.in));
+        GuessTheNumber game = new GuessTheNumber(new Scanner(System.in));
         game.start();
     }
 }

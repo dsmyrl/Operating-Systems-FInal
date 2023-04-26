@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class final_project {
+public class DungeonGame {
 	public double worrior_health = 175;
 	public double worrior_Max_attack_stat = 30;
 	public double worrior_Min_attack_stat = 20;
@@ -45,7 +45,7 @@ public class final_project {
 	public int boss_room_key = 0;
 	public int bomb_count = 0;
 	private Scanner input;
-	public final_project(Scanner input) {
+	public DungeonGame(Scanner input) {
         this.input = input;
     }
 	
